@@ -1,0 +1,60 @@
+@import './layout/footer';
+@import './utilities/variables';
+@import './base/reset';
+
+//reset
+*{
+    box-sizing: $reset-box;
+    margin: $reset-margin;
+    padding: $reset-padding;
+}
+
+//footer
+
+.v-footer{
+    font-size: $v-text-size;
+    margin: auto;
+    width: $v-width;
+}
+
+.v-footer a{
+    color: $v-color-letter;
+    text-decoration: $v-a-decoration;
+}
+
+.v-lenguajes {
+    display: $v-display;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: $v-height;
+    padding-top: $v-paddingtop;
+    padding-bottom: $v-paddingbottom;
+}
+
+.v-lenguajes a{
+    margin-right: $v-marginr;
+    margin-bottom: $v-marginb;
+}
+
+hr {
+    margin-top: $v-margint;
+    background-color: $v-hr-bg;
+    border-top: $v-hr-border;
+}
+
+.v-actividades {
+    display: $v-display;
+    flex-wrap: wrap;
+    padding-top: $v-paddingtop;
+    padding-bottom: $v-paddingbottom;
+}
+
+.v-actividades a{
+    margin-right: 20px;
+    margin-bottom: $v-marginb;
+}
+
+.v-fb{
+    color: $v-color-letter;
+    font-size: $v-fb-letter;
+}

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.v-footer {
+  font-size: 14px;
+  margin: auto;
+  width: 75%;
+}
+
+.v-footer a {
+  color: #8a8d91;
+  text-decoration: none;
+}
+
+.v-lenguajes {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  height: 10px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.v-lenguajes a {
+  margin-right: 12px;
+  margin-bottom: 5px;
+}
+
+hr {
+  margin-top: 15px;
+  background-color: transparent;
+  border-top: 1px solid #ccc;
+}
+
+.v-actividades {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.v-actividades a {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.v-fb {
+  color: #8a8d91;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=main.css.map */
