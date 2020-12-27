@@ -52,4 +52,8 @@ hr {
   font-size: 12px;
 }
 
+.v-footer a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=main.css.map */
